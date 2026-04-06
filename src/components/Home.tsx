@@ -495,8 +495,8 @@ const Home = () => {
             <div className="quiz-card">
               <h3><FaCheckCircle /> Requisitos Mínimos</h3>
               <div className="checkbox-group">
-                <label><input type="checkbox" checked={questionario.jogarBemVava} onChange={(e) => handleQuestionarioChange('jogarBemVava', e.target.checked)} /> Joga bem de Vava</label>
-                <label><input type="checkbox" checked={questionario.jogarBemDeJett} onChange={(e) => handleQuestionarioChange('jogarBemDeJett', e.target.checked)} /> Joga bem de Jett</label>
+                <label><input type="checkbox" checked={questionario.jogarBemVava} onChange={(e) => handleQuestionarioChange('jogarBemVava', e.target.checked)} /> Joga Vava</label>
+                <label><input type="checkbox" checked={questionario.jogarBemDeJett} onChange={(e) => handleQuestionarioChange('jogarBemDeJett', e.target.checked)} /> Jogar bem de Jett</label>
                 <label><input type="checkbox" checked={questionario.saberUsarOp} onChange={(e) => handleQuestionarioChange('saberUsarOp', e.target.checked)} /> Sabe usar OP</label>
               </div>
             </div>
